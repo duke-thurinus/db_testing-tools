@@ -13,11 +13,11 @@ def RunTests(tests, conn):
         
 
         if len(df1) != len(df2):
-            print("test: " + test.testName + " results have diffrent number of rows")
+            print("test: " + test.testName + " results have different number of rows")
             continue
 
         if len(df1.columns) != len(df2.columns):
-            print("test: " + test.testName + " results have diffrent number of colums")
+            print("test: " + test.testName + " results have different number of columns")
             continue
 
         df1.sort_values(by=columns, inplace=True, ignore_index=True)
@@ -27,7 +27,7 @@ def RunTests(tests, conn):
         if comparisonDF.empty:
             print("test: " + test.testName + " is successful")
         else:
-            print("test: " + test.testName + " produced diffrences:")
+            print("test: " + test.testName + " produced differences:")
             print(comparisonDF)
 
 def PrintTests(tests):
