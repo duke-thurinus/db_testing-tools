@@ -1,6 +1,0 @@
-
-*.ini
-
-tests/
-
-__pycache__/
