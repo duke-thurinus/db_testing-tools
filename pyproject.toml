@@ -1,0 +1,23 @@
+[project]
+name = "db_testing_tools"
+version = "1.0.0"
+requires-python = ">= 3.8"
+authors = [
+  {name = "duke-thurinus"},
+]
+maintainers = [
+  {name = "duke-thurinus"}
+]
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {text = "MIT License"}
+dependencies = [
+  "pyodbc",
+  "pandas",
+  "configparser",
+  "argparse",
+]
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+

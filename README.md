@@ -1,7 +1,19 @@
 # database_testing_tools
 
 ## User Guide
-Install python3
+
+### Initial Setup
+- Install python3
+
+- Create a virtual environment python3 -m venv <envname> or python -m venv <envname>
+
+- Activate the virtual environment - In your terminal type <envname>\Scripts\activate.bat (Windows terminal) or .\<envname>\Scripts\activate (Powershell)
+
+- Run python -m pip install to install dependencies
+
+- Run pip list to verify packages were installed
+
+- Create a .gitignore to prevent committing directories/files used for development i.e. .ini, virtual env directory, etc
 
 Rename copy and rename config.ini.template to config.ini
 
